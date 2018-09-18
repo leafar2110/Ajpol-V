@@ -1,0 +1,204 @@
+.nav-logo{
+	max-width: 167px;
+}
+.header{
+	position: fixed;
+	background: white;
+	width: 100%;
+	z-index: 111;
+	box-shadow: 0 5px 11px 0 rgba(50, 50, 50, 0.08);
+}
+.social-nav li a{
+	color: #003057 !important;
+	padding-left: 21px
+}
+.navbar-nav li a{
+	color: #404040;
+	padding-left: 21px
+}
+.social-nav{
+	padding-left: 150px;
+}
+.iconos-app{
+	font-size: 25px !important;
+}
+.portada{
+	background-image: url(../img/equipo1.jpg);
+	background-size: cover;
+	height: 92vh;
+
+	display: grid;
+	align-items: center;
+}
+.portada h1,
+.portada h2{
+	color: white;
+	margin: auto;
+	font-weight: bold;
+}
+.portada h1{
+	font-size: 45px
+}
+.portada h2{
+	font-size: 30px;
+	padding-bottom: 30px;
+}
+.mas-informacion{
+	padding: 60px 0;
+}
+.mas-informacion p{
+	font-size: 19px;
+	padding-top: 10px;
+
+}
+.mas-informacion h4{
+	font-size: 24px;
+}
+.mas-info{
+	padding-top: 30px;
+}
+.mas-info a{
+	border: none;
+	padding: 15px;
+	border-radius: 24px;
+	width: 140px;
+	background: #ffdd00;
+	color: black;
+}
+.asesoramiento{
+	background-image: url(../img/equipo1.jpg);
+	background-size: cover;
+	height:61vh;
+}
+.asesoramiento h3,
+.asesoramiento p, 
+.asesoramiento li{
+	color: white;
+	display: block;
+}
+.border-titulo{
+	margin-bottom: 25px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.info-aseso{
+	padding: 0;
+	background: #0077C8;
+	height: 61vh;
+}
+.section-service{
+	padding: 70px 0;
+	background: #efefef;
+}
+.section-service h2{
+	font-weight: bold;
+	padding-bottom: 60px;
+
+}
+.content-card{
+	background: white;
+	padding: 30px;
+}
+.content-card li{
+	display: block;
+}
+.content-text-card{
+	height: 50vh;
+	padding: 0;
+	margin: 0;
+}
+.section-ayuda{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #003057;
+}
+.section-ayuda p{
+	color: white;
+	font-size: 24px;
+}
+.section-ayuda a{
+	padding: 19px 36px;
+	border-radius: 23px;
+	color: black;
+	font-size: 15px;
+	background: #ffdd00;
+}
+.section-contact{
+	padding: 70px 0;
+	background: #efefef;
+}
+.section-contact h2{
+	color: #404040;
+	padding-bottom: 70px;
+}
+.section-contact li{
+	display: block;
+}
+.section-contact p,
+.section-contact li{
+	font-size: 18px;
+	color: #404040;
+	padding-bottom: 10px;
+}
+.section-contact h3{
+	padding-bottom: 10px;
+}
+.content-info-contact{
+	padding: 0;
+}
+.section-contact input{
+	width: 160px;
+	height: 43px;
+	padding: 0px 13px;
+	color: #817581;
+	margin: 0px;
+	border: 1px solid #f1b7be;
+	padding-bottom: 0px;
+	border-radius: 6px;
+}
+
+.section-contact textarea{
+	width: 100%;
+	border-radius: 6px;
+	border: none;
+}
+.section-contact input[type="email"]{
+	margin: 0 25px;
+	margin-bottom: 11px; 
+}
+.section-contact input[type="submit"]{
+	float: right;
+	padding: 10px;
+	background: #ffdd00;
+	border-radius: 20px;
+	border: none; 
+}
+.footer-app{
+	padding: 70px 0;
+	background: #003057;
+	color: #939393;
+}
+.footer-app li{
+	display: block;
+}
+.footer-app li a{
+	color: #939393 !important;
+}
+.copy-app{
+	background: #000;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	color: #939393!important;
+}
+.footer-social{
+	display: -webkit-inline-box;
+	display: -moz-inline-box;
+}
+.section-blog{
+	height: 100vh;
+
+}
+.centrar-vertical{
+	display: grid;
+	align-items: center;
+}
