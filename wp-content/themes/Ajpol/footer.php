@@ -42,8 +42,21 @@
 
 
 <!-- script para que funcione al 100% el botón ir arriba -->
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.autoplay').slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			autoplay: true,
+			autoplaySpeed: 3000,
+			infinite: true,
+			fade: true,
+			cssEase: 'linear',
+		});
+		
+	});
 
+</script>
 <?php wp_footer();?>
 <script>
 	new WOW().init();

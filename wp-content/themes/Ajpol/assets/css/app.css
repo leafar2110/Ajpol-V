@@ -1,6 +1,9 @@
 .nav-logo{
 	max-width: 167px;
 }
+a:hover{
+	text-decoration: none;
+}
 .header{
 	position: fixed;
 	background: white;
@@ -99,13 +102,18 @@
 	background: white;
 	padding: 30px;
 }
-.content-card li{
-	display: block;
+.content-card p{
+	color: #777777;
+	font-size: 18px;
+	margin-bottom: 10px;
 }
 .content-text-card{
 	height: 50vh;
 	padding: 0;
 	margin: 0;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	margin-top: 25px;
 }
 .section-ayuda{
 	padding-top: 70px;
@@ -195,10 +203,53 @@
 	display: -moz-inline-box;
 }
 .section-blog{
-	height: 100vh;
+	position: relative;
+	padding: 60px 0;
 
+}
+.section-blog h2{
+	padding-bottom: 40px;
 }
 .centrar-vertical{
 	display: grid;
 	align-items: center;
+}
+.border-maps iframe{
+	width: 100%;
+	height: 400px;
+	margin-bottom: -10px;
+}
+.fa-angle-left, .fa-angle-right{
+	color: rgb(121, 118, 118);
+	font-size: 50px !important;
+	font-weight: bold !important;
+	cursor: pointer;
+
+}
+.content-text{
+	padding: 25px 0px;
+}
+.content-text p{
+	padding: 25px 0px;
+	color: #777777;
+	font-size: 20px;
+}
+.content-text a{
+	background: #ffdd00;
+	color: black;
+	padding: 20px;
+	border-radius: 30px;
+	cursor: pointer;
+}
+.next-prev{
+	
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: -120px;
+	right: -120px;
+}
+
+.content-card-blog{
+	padding: 0px 15px;
 }
