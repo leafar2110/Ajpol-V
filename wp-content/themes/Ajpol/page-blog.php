@@ -19,7 +19,7 @@
 					<div class="col-md-4">
 						<img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/2018-03-09-PHOTO-00000021-285x214.jpg" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 text-justify">
 						<div class="text-blog">
 							<div class="fecha">  <p> <strong>Publicada </strong> 22 marzo 2018</p></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quas dignissimos, fugiat facilis odio perferendis animi. Nihil eaque, commodi accusantium. Consequatur magni velit ab consequuntur officiis reiciendis dolorem explicabo vero?</p>
@@ -32,7 +32,7 @@
 					<div class="col-md-4">
 						<img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/portada1-285x214.jpg" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 text-justify">
 						<div class="text-blog">
 							<div class="fecha">  <p> <strong>Publicada </strong> 22 marzo 2018</p></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quas dignissimos, fugiat facilis odio perferendis animi. Nihil eaque, commodi accusantium. Consequatur magni velit ab consequuntur officiis reiciendis dolorem explicabo vero?</p>
@@ -45,7 +45,7 @@
 					<div class="col-md-4">
 						<img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/2018-03-09-PHOTO-00000021-285x214.jpg" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 text-justify">
 						<div class="text-blog">
 							<div class="fecha">  <p> <strong>Publicada </strong> 22 marzo 2018</p></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quas dignissimos, fugiat facilis odio perferendis animi. Nihil eaque, commodi accusantium. Consequatur magni velit ab consequuntur officiis reiciendis dolorem explicabo vero?</p>
@@ -58,7 +58,7 @@
 					<div class="col-md-4">
 						<img class="img-fluid" src="<?php echo get_template_directory_uri();?>/assets/img/portada1-285x214.jpg" alt="">
 					</div>
-					<div class="col-md-8">
+					<div class="col-md-8 text-justify">
 						<div class="text-blog">
 							<div class="fecha">  <p> <strong>Publicada </strong> 22 marzo 2018</p></div>
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur quas dignissimos, fugiat facilis odio perferendis animi. Nihil eaque, commodi accusantium. Consequatur magni velit ab consequuntur officiis reiciendis dolorem explicabo vero?</p>

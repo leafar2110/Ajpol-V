@@ -71,6 +71,28 @@ a:hover{
 	display: grid;
 	align-items: center;
 }
+
+.post-blog{
+	margin-right: 30px;
+	padding-bottom: 30px;
+	margin-bottom: 60px;
+	border-bottom: 1px solid #ccc;
+}
+.text-blog p{
+	margin-top: 30px;
+}
+
+.entrada strong,
+.categoria strong{
+	font-size: 20px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ffdd00;
+
+}
+.entrada p,
+.categoria p{
+	margin-top: 30px;
+}
 .centrar-portada{
 	display: grid;
 	align-items: center;
