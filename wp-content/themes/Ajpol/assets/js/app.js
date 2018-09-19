@@ -1,17 +1,25 @@
-$(document).ready(function(){
- 
-	$('.ir-arriba').click(function(){
-		$('body, html').animate({
-			scrollTop: '0px'
-		}, 1000);
-	});
- 
-	$(window).scroll(function(){
-		if( $(this).scrollTop() > 0 ){
-			$('.ir-arriba').slideDown(300);
-		} else {
-			$('.ir-arriba').slideUp(300);
-		}
-	});
- 
+$(document).ready(function() {
+	$("#myCarousel").on("slide.bs.carousel", function(e) {
+		var $e = $(e.relatedTarget);
+		var idx = $e.index();
+		var itemsPerSlide = 3;
+		var totalItems = $(".carousel-item").length;
+
+		if (idx >= totalItems - (itemsPerSlide - 1)) {
+			var it = itemsPerSlide - (totalItems - idx);
+			for (var i = 0; i < it; i++) {
+        // append slides to end
+        if (e.direction == "left") {
+        	$(".carousel-item")
+        	.eq(i)
+        	.appendTo(".carousel-inner");
+        } else {
+        	$(".carousel-item")
+        	.eq(0)
+        	.appendTo($(this).find(".carousel-inner"));
+        }
+    }
+}
 });
+});
+

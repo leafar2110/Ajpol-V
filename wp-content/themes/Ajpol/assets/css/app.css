@@ -16,6 +16,7 @@ a:hover{
 	padding-left: 21px
 }
 .social-nav li a:hover{
+	font-family: 'Lato', sans-serif;
 	color:  #404040 !important;
 	padding-left: 21px
 }
@@ -45,6 +46,7 @@ a:hover{
 }
 .portada h1,
 .portada h2{
+	font-family: 'Montserrat', sans-serif;
 	color: white;
 	margin: auto;
 	font-weight: bold;
@@ -60,17 +62,20 @@ a:hover{
 	padding: 60px 0;
 }
 .mas-informacion p{
+	font-family: 'Lato', sans-serif;
 	font-size: 19px;
 	padding-top: 10px;
 
 }
 .mas-informacion h4{
+	font-family: 'Lato', sans-serif;
 	font-size: 24px;
 }
 .mas-info{
 	padding-top: 30px;
 }
 .mas-info a{
+	font-family: 'Lato', sans-serif;
 	border: none;
 	padding: 15px;
 	border-radius: 24px;
@@ -81,7 +86,7 @@ a:hover{
 }
 .mas-info a:hover,
 .section-ayuda a:hover,
-.content-text a:hover,
+.boton-blog:hover,
 .section-contact input[type="submit"]:hover{
 	background: white;
 	border: 1px solid #ffdd00;
@@ -98,6 +103,13 @@ a:hover{
 	color: white;
 	display: block;
 }
+.asesoramiento h3{
+	font-family: 'Montserrat', sans-serif;
+}
+.asesoramiento p, 
+.asesoramiento li{
+	font-family: 'Lato', sans-serif;
+}
 .border-titulo{
 	margin-bottom: 25px;
 	padding-bottom: 40px;
@@ -113,6 +125,7 @@ a:hover{
 	background: #efefef;
 }
 .section-service h2{
+	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	padding-bottom: 60px;
 
@@ -129,6 +142,7 @@ a:hover{
 	transition-duration: .4s;
 }
 .content-card p{
+	font-family: 'Lato', sans-serif;
 	color: #777777;
 	font-size: 18px;
 	margin-bottom: 10px;
@@ -147,10 +161,12 @@ a:hover{
 	background: #003057;
 }
 .section-ayuda p{
+	font-family: 'Lato', sans-serif;
 	color: white;
 	font-size: 24px;
 }
 .section-ayuda a{
+	font-family: 'Lato', sans-serif;
 	padding: 19px 36px;
 	border-radius: 23px;
 	color: black;
@@ -163,6 +179,7 @@ a:hover{
 	background: #efefef;
 }
 .section-contact h2{
+	font-family: 'Montserrat', sans-serif;
 	color: #404040;
 	padding-bottom: 70px;
 }
@@ -171,11 +188,13 @@ a:hover{
 }
 .section-contact p,
 .section-contact li{
+	font-family: 'Lato', sans-serif;
 	font-size: 18px;
 	color: #404040;
 	padding-bottom: 10px;
 }
 .section-contact h3{
+	font-family: 'Lato', sans-serif;
 	padding-bottom: 10px;
 }
 .content-info-contact{
@@ -190,9 +209,11 @@ a:hover{
 	border: 1px solid #f1b7be;
 	padding-bottom: 0px;
 	border-radius: 6px;
+	font-family: 'Lato', sans-serif;
 }
 
 .section-contact textarea{
+	font-family: 'lato', sans-serif;
 	padding: 7px 15px;
 	width: 100%;
 	border-radius: 6px;
@@ -219,6 +240,7 @@ a:hover{
 	display: block;
 }
 .footer-app  a{
+	font-family: 'Lato', sans-serif;
 	color: #939393 !important;
 }
 .copy-app{
@@ -237,6 +259,7 @@ a:hover{
 
 }
 .section-blog h2{
+	font-family: 'Montserrat', sans-serif;
 	padding-bottom: 40px;
 }
 .centrar-vertical{
@@ -259,11 +282,18 @@ a:hover{
 	padding: 25px 0px;
 }
 .content-text p{
+	font-family: 'Lato', sans-serif;
 	padding: 25px 0px;
 	color: #777777;
 	font-size: 20px;
 }
 .content-text a{
+	font-size: 22px;
+	cursor: pointer;
+}
+.boton-blog{
+	font-size: 16px !important;
+	font-family: 'Lato', sans-serif;
 	background: #ffdd00;
 	color: black;
 	padding: 20px;
@@ -281,8 +311,76 @@ a:hover{
 .content-card-blog{
 	padding: 0px 15px;
 }
+.asesoramiento h3 {
+	font-family: 'lato', sans-serif;
+	padding-top: 30px;
+}
+
+@media (min-width: 767px) {
+	/* show 3 items */
+	.carousel-inner .active,
+	.carousel-inner .active + .carousel-item,
+	.carousel-inner .active + .carousel-item + .carousel-item {
+		display: block;
+	}
+
+	.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+	.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+	.carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+		transition: none;
+	}
+
+	.carousel-inner .carousel-item-next,
+	.carousel-inner .carousel-item-prev {
+		position: relative;
+		transform: translate3d(0, 0, 0);
+	}
+
+	.carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+		position: absolute;
+		top: 0;
+		right: -33.3333%;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+
+	/* left or forward direction */
+	.active.carousel-item-left + .carousel-item-next.carousel-item-left,
+	.carousel-item-next.carousel-item-left + .carousel-item,
+	.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+	.carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(-100%, 0, 0);
+		visibility: visible;
+	}
+
+	/* farthest right hidden item must be abso position for animations */
+	.carousel-inner .carousel-item-prev.carousel-item-right {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: -1;
+		display: block;
+		visibility: visible;
+	}
+
+	/* right or prev direction */
+	.active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+	.carousel-item-prev.carousel-item-right + .carousel-item,
+	.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+	.carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+		position: relative;
+		transform: translate3d(100%, 0, 0);
+		visibility: visible;
+		display: block;
+		visibility: visible;
+	}
+}
 
 
+
+/*****************Query Movil***************/
 @media (min-width: 0px) and (max-width: 767px){
 	.social-nav{
 		display: grid;
@@ -331,9 +429,7 @@ a:hover{
 		left: 0;
 		right: 0;
 	}
-	.content-text p {
-		padding: 25px 35px;
-	}
+
 	.section-blog h2,
 	.section-contact h2 {
 		font-size: 25px;
@@ -353,11 +449,61 @@ a:hover{
 		padding: 70px 20px;
 
 	}
-}
+	.content-text a{
+		color: #404040;
+		font-size: 16px;
+	}
+	.content-text-card {
+		height: auto;
 
+	}
+}
+/*****************End Query Movil***************/
+/***************** Query tablet***************/
 @media (min-width: 768px) and (max-width: 991px){
+	.social-nav{
+		display: grid;
+		justify-content: center;
+		padding-left: 0px;
+	}
+	.social-nav ul{
+		display: -webkit-box;
+	}
+	.menu-nav li{
+		border-bottom: 1px solid rgba(204, 204, 204, 0.53);
+		padding-bottom: 7px;
+		margin-bottom: 10px;
+	}
+	.info-aseso {
+		height: auto;
+	}
+	.asesoramiento {
+		height: auto;
+	}
+	.content-text-card {
+		height: auto;
+
+	}
+	.section-ayuda a {
+		padding: 15px 10px;
+		font-size: 12px;
+
+	}
+	.next-prev {
+		left: -65px;
+		right: -65px;
+	}
+	.section-contact input {
+		width: 100%;
+	}
+	.section-contact input[type="email"],
+	.section-contact input[type="text"]{
+		margin: 0;
+		margin-bottom: 8px;
+	}
 
 }
+/***************** Query tablet***************/
 @media (min-width: 992px) and (max-width: 1200px){
 
 }
