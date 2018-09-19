@@ -15,9 +15,19 @@ a:hover{
 	color: #003057 !important;
 	padding-left: 21px
 }
+.social-nav li a:hover{
+	color:  #404040 !important;
+	padding-left: 21px
+}
+
 .navbar-nav li a{
 	color: #404040;
-	padding-left: 21px
+	padding-left: 21px;
+	transition-duration: .3s;
+}
+.navbar-nav li a:hover{
+	color: #ffdd00;
+	transition-duration: .3s;
 }
 .social-nav{
 	padding-left: 150px;
@@ -67,6 +77,15 @@ a:hover{
 	width: 140px;
 	background: #ffdd00;
 	color: black;
+	transition-duration: .4s;
+}
+.mas-info a:hover,
+.section-ayuda a:hover,
+.content-text a:hover,
+.section-contact input[type="submit"]:hover{
+	background: white;
+	border: 1px solid #ffdd00;
+	transition-duration: .4s;
 }
 .asesoramiento{
 	background-image: url(../img/equipo1.jpg);
@@ -101,6 +120,13 @@ a:hover{
 .content-card{
 	background: white;
 	padding: 30px;
+	transition-duration: .4s;
+}
+.content-card:hover{
+	transform: translateY(-5px);
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	transition-duration: .4s;
 }
 .content-card p{
 	color: #777777;
@@ -130,6 +156,7 @@ a:hover{
 	color: black;
 	font-size: 15px;
 	background: #ffdd00;
+	transition-duration: .4s;
 }
 .section-contact{
 	padding: 70px 0;
@@ -166,6 +193,7 @@ a:hover{
 }
 
 .section-contact textarea{
+	padding: 7px 15px;
 	width: 100%;
 	border-radius: 6px;
 	border: none;
@@ -180,6 +208,7 @@ a:hover{
 	background: #ffdd00;
 	border-radius: 20px;
 	border: none; 
+	width: 200px !important;
 }
 .footer-app{
 	padding: 70px 0;
@@ -244,8 +273,7 @@ a:hover{
 .next-prev{
 	
 	position: absolute;
-	top: 0;
-	bottom: 0;
+	top: 50%;
 	left: -120px;
 	right: -120px;
 }
