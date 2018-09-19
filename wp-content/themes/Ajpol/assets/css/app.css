@@ -218,7 +218,7 @@ a:hover{
 .footer-app li{
 	display: block;
 }
-.footer-app li a{
+.footer-app  a{
 	color: #939393 !important;
 }
 .copy-app{
@@ -284,7 +284,75 @@ a:hover{
 
 
 @media (min-width: 0px) and (max-width: 767px){
+	.social-nav{
+		display: grid;
+		justify-content: center;
+		padding-left: 0px;
+	}
+	.social-nav ul{
+		display: -webkit-box;
+	}
+	.menu-nav li{
+		border-bottom: 1px solid rgba(204, 204, 204, 0.53);
+		padding-bottom: 7px;
+		margin-bottom: 10px;
+	}
+	.mas-informacion {
+		padding: 60px 25px;
+	}
+	.separador{
+		padding-bottom: 30px;
+	}
+	.padding-element{
+		padding: 100px 25px 0;
+	}
+	.info-aseso {
+		height: auto;
+	}
+	.asesoramiento {
+		height: auto;
+	}
+	.asesoramiento h3{
+		padding-top: 30px;
+	}
+	.section-ayuda p {
+		padding-bottom: 50px;
+		text-align: center;
+	}
+	.section-ayuda {
+		padding-top: 120px;
+		padding-bottom: 120px;
+	}
+	.boton-ayuda{
+		display: grid;
+		justify-content: center;
+	}
+	.next-prev {
+		left: 0;
+		right: 0;
+	}
+	.content-text p {
+		padding: 25px 35px;
+	}
+	.section-blog h2,
+	.section-contact h2 {
+		font-size: 25px;
+	}
+	.section-contact input {
+		width: 100%;
+	}
+	.section-contact input[type="email"],
+	.section-contact input[type="text"]{
+		margin: 0;
+		margin-bottom: 8px;
+	}
+	.section-footer div{
+		padding-bottom: 25px;
+	}
+	.section-contact {
+		padding: 70px 20px;
 
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px){

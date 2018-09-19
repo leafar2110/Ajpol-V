@@ -1,6 +1,6 @@
 <section class="container mas-informacion">
 	<div class="row text-center ">
-		<div class="col-md-6">
+		<div class="col-md-6 separador">
 			<h4> <strong>Consigue TU sueño de ser Policía Nacional</strong></h4>
 			<p>Contamos con una formación integral impartida por profesionales especializados en las diferentes materias (teniendo en cuenta las últimas ampliaciones del temario), con un seguimiento personalizado. </p>
 			<p>Coaching para opositores.</p>

@@ -26,7 +26,7 @@
 					</div>
 
 					<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-						<ul class="navbar-nav ">
+						<ul class="navbar-nav menu-nav">
 							<li class="nav-item "><a class="" href="<?php echo bloginfo('url').'/index.php'; ?>">Inicio</a></li>
 							<li class="nav-item"><a class="" href="<?php echo bloginfo('url').'/index.php/ajpol'; ?>">AJPOL</a></li>
 							<li class="nav-item"><a class="" href="<?php echo bloginfo('url').'/index.php/blog'; ?>">Blog</a></li>

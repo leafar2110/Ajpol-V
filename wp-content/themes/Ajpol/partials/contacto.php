@@ -6,11 +6,11 @@
 				<h3><strong>Solicita más información </strong></h3>
 				<p>Si desea mas información sobre nuestros servicios, hacernos alguna pregunta, o está interesado en solicitar un presupuesto, deje su mensaje y uno de nuestros agentes contactará con usted a la mayor brevedad.</p>
 				<p><strong>Datos de contacto:</strong></p>
-				<ul>
-					<li> <strong>Ubicación:</strong> Calle Sevilla 41-43, Jerez de la Frontera. CP 11402</li>
-					<li><strong>Tlfs:</strong> 956 900 020 / 625 71 73 97</li>
-					<li><strong>E-mail:</strong> info@ajpol.com</li>
-				</ul>
+		
+				<p> <strong>Ubicación:</strong> Calle Sevilla 41-43, Jerez de la Frontera. CP 11402</p>
+				<p><strong>Tlfs:</strong> 956 900 020 / 625 71 73 97</p>
+				<p><strong>E-mail:</strong> info@ajpol.com</p>
+			
 			</div>
 			<div class="col-md-6">
 				<form action="">
