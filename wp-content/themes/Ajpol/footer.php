@@ -16,12 +16,12 @@
 			<div class="col-md-3">
 				<div class="get-social gtco-social-icon text-center contacts">
 
-					<div class="navbar-nav footer-social">
+					<ul class="navbar-nav footer-social">
 						<li><a href="#"><i class="fa fa-twitter iconos-app"></i></a></li>
 						<li><a href="#"><i class="fa fa-facebook-official iconos-app"></i></a></li>
 						<li><a href="#"><i class="fa fa-instagram iconos-app"></i></a></li>
 						<li><a href="#"><i class="fa fa-whatsapp iconos-app"></i></a></li>
-					</div>
+					</ul>
 
 				</div>
 			</div>

@@ -36,13 +36,82 @@ a:hover{
 .iconos-app{
 	font-size: 25px !important;
 }
+.contenedor-general{
+	position: relative;
+	top: 90px;
+}
 .portada{
 	background-image: url(../img/equipo1.jpg);
 	background-size: cover;
-	height: 92vh;
+	height: 82vh;
+
 
 	display: grid;
 	align-items: center;
+}
+.portada-contact{
+	background-image: url(../img/ba3.jpg);
+	background-size: cover;
+	height: 65vh;
+	position: relative;
+	display: grid;
+	align-items: center;
+}
+.blog-grid{
+	padding: 70px 0;
+	display: grid;
+	grid-template-columns: 8fr 2fr;
+
+}
+.portada-blog{
+	
+	background-size: cover;
+	height: 65vh;
+	position: relative;
+	display: grid;
+	align-items: center;
+}
+.centrar-portada{
+	display: grid;
+	align-items: center;
+	height: 65vh;
+	color: white;
+}
+.siguenos h2{
+	padding: 100px 0 5px;
+}
+.siguenos ul{
+	display: -webkit-inline-box;
+}
+.siguenos ul li a {
+	padding-left: 0px;
+
+}
+.siguenos ul li a i{
+	padding-left: 0px;
+	margin: 5px;
+	padding: 10px;
+	background: #003057;
+	border-radius: 50%;
+	color: white;
+
+}
+.siguenos .fa-facebook{
+	padding: 10px 13px !important;
+}
+.capa{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.47);
+	left: 0;
+}
+.white-b{
+	background: white !important;
+}
+.border-c{
+	border: 1px solid #ccc !important;
 }
 .portada h1,
 .portada h2{
