@@ -551,6 +551,14 @@ a:hover{
 		height: auto;
 
 	}
+	.entrada strong, .categoria strong {
+		font-size: 13px;
+
+	}
+	.entrada p, .categoria p {
+
+		font-size: 12px;
+	}
 }
 /*****************End Query Movil***************/
 /***************** Query tablet***************/
@@ -559,6 +567,9 @@ a:hover{
 		display: grid;
 		justify-content: center;
 		padding-left: 0px;
+	}
+	.text-blog p {
+		margin-top: 0px;
 	}
 	.social-nav ul{
 		display: -webkit-box;
